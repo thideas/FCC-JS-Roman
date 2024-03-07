@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+
+}
+
+main {
+    padding: 20px;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("roman-img.webp");
+
+}
+
+.input-container {
+    margin: 100px auto 15px auto;
+    width: 400px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 19px 3px rgba(177, 179, 179, 1);
+
+}
+
+h2 {
+    margin: 20px auto 10px auto;
+    text-align: center;
+    width: 400px;
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgb(207, 135, 26);
+}
+
+
+label {
+    margin: 10px auto 0 auto;
+    font-size: 1.2rem;
+
+}
+
+input {
+    width: 200px;
+    height: 25px;
+    margin: 15px;
+    background: rgba(255, 255, 255, 0.445);
+    border-radius: 5px;
+    border: none;
+    border-bottom: 2px solid rgb(207, 135, 26);
+
+}
+
+#convert-btn {
+    width: 200px;
+    height: 25px;
+    background: rgba(255, 255, 255, 0.445);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px;
+    cursor: pointer;
+    box-shadow: 0px 0px 19px 3px rgba(177, 179, 179, 1);
+    transition: 0.5s;
+    font-weight:
+}
+
+#convert-btn:hover {
+    background: rgba(216, 216, 216, 0.575);
+}

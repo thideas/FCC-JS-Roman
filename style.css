@@ -16,11 +16,13 @@ main {
     width: 100vw;
     height: 100vh;
     background-image: url("roman-img.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
 .input-container {
-    margin: 100px auto 15px auto;
+    margin: 20vh auto 15px auto;
     width: 400px;
     border-radius: 5px;
     display: flex;
